@@ -62,7 +62,7 @@ def solve_line(line: str):
 
 
 def get_solution():
-    file = open('day1-input.txt', 'r')
+    file = open('../inputs/day1.txt', 'r')
     lines = file.readlines()
     solution = 0
     for line in lines:

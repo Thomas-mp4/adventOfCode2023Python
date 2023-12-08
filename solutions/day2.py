@@ -74,7 +74,7 @@ def mini_game_parser(mini_game: str):
 
 
 def solve():
-    file = open('day2-input.txt', 'r')
+    file = open('../inputs/day2.txt', 'r')
     lines = file.readlines()
     solution_part_1 = 0
     solution_part_2 = 0
